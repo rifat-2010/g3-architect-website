@@ -198,6 +198,25 @@ header{
 .feature-architect img{
         width: 100%;
     }
+
+    /* footer section styles */
+    footer{
+        margin: 130px 240px 216px 240px;
+    }
+    .footer{
+        max-width: 1440px;
+        height: 100px;
+        background-color: #FFF4E7;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer h4{
+        font-size: 20px;
+        color: #424242;
+        
+    }
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .navbar, .nav-links, .teams, .features{
@@ -222,7 +241,9 @@ header{
         margin-top: 20px;
         margin-left: 20px;
     }
-    
+    .footer h4{
+        background-color: #FFF4E7;
+    }
 }
 
 /* medium size device responsive styles */
